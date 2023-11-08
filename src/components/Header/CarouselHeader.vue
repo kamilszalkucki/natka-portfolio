@@ -2,18 +2,9 @@
     <div>
         <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
-                <div v-for="image in images" :key="image.interval" class="carousel-item" :class="image.interval == '5000' ? 'active' : ''" :data-bs-interval="image.interval != '0' ? image.interval : false">
+                <div v-for="image in images" :key="image.interval" class="carousel-item" :class="image.path == 'header-image-1.jpg' ? 'active' : ''" :data-bs-interval="image.interval != '0' ? image.interval : false">
                     <img :src="require(`../../assets/img/${image.path}`)" class="d-block w-100 img-fluid" alt="...">
                 </div>
-                <!-- <div class="carousel-item active" data-bs-interval="5000">
-                    <img src="../../assets/img/header-image-1.jpg" class="d-block w-100 img-fluid" alt="...">
-                </div>
-                <div class="carousel-item" data-bs-interval="2000">
-                    <img src="../../assets/img/header-image-2.jpg" class="d-block w-100 img-fluid" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="../../assets/img/header-image-3.jpg" class="d-block w-100 img-fluid" alt="...">
-                </div> -->
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
                 data-bs-slide="prev">

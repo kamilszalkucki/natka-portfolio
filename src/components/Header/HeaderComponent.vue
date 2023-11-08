@@ -12,7 +12,7 @@ import CarouselHeader from './CarouselHeader.vue';
 const images = [
     {
         "path": 'header-image-1.jpg',
-        "interval": '5000',
+        "interval": '3000',
     },
     {
         "path": 'header-image-2.jpg',
