@@ -4,14 +4,10 @@
 
 <script>
 import MainView from './views/MainView.vue';
-// import NavBar from './components/NavBar';
-// import SideLeft from './components/Header/SideLeft';
 export default {
   name: 'App',
   components: {
-    // NavBar,
-    // SideLeft,
-    MainView
+    MainView,
   }
 }
 </script>
