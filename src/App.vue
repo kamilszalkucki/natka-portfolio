@@ -1,20 +1,24 @@
 <template>
-  <header class="main w-100">
-    <NavBar />
+  <div class="container-fluid m-0 p-0">
+    <header class="main">
+      <NavBar />
 
-    <div class="row">
-      <div class="col-12 p-0 m-0">
-        <div class="d-flex justify-content-center align-items-center position-relative top-50 start-50 translate-middle">
-          <img class="img-fluid d-block mb-3" src="./assets/img/t-shirt.png" alt="t-shirt-black">
-          <img class="position-absolute top-50 start-50 translate-middle-x logo-animation img-fluid"
-            src="./assets/img/logo.svg" alt="" style="transform: translateY(-100%);">
+      <div class="row w-100 p-0 m-0">
+        <div class="col-12 p-0 m-0">
+          <div
+            class="d-flex justify-content-center align-items-center position-relative top-50 start-50 translate-middle">
+            <img class="img-fluid d-block mb-3" src="./assets/img/t-shirt.png" alt="t-shirt-black">
+            <img class="position-absolute top-50 start-50 translate-middle-x logo-animation img-fluid"
+              src="./assets/img/logo.svg" alt="" style="transform: translateY(-100%);">
+          </div>
         </div>
       </div>
-    </div>
-  </header>
-  <main>
-    <router-view></router-view>
-  </main>
+    </header>
+
+    <main>
+      <router-view></router-view>
+    </main>
+  </div>
 </template>
 
 <script>
@@ -29,11 +33,13 @@ export default {
 </script>
 
 <style>
-body, html {
+body,
+html {
   margin: 0;
   padding: 0;
-  overflow: hidden;
+  /* overflow-x: hidden; */
 }
+
 #app {
   font-family: Poppins sans-serif;
   -webkit-font-smoothing: antialiased;
