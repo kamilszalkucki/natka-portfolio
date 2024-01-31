@@ -49,6 +49,7 @@ html {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  background-color: #a5927c;
 }
 
 header.main {

@@ -100,10 +100,6 @@ export default {
 </script>
   
 <style scoped>
-.gallery-section {
-    background-color: #a5927c;
-}
-
 .gallery-container {
     max-width: 1077px;
 }
