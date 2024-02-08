@@ -33,6 +33,9 @@ export default {
 </script>
 
 <style>
+html {
+  scroll-behavior: smooth;
+}
 body,
 html {
   margin: 0;

@@ -3,7 +3,8 @@
     <div class="container-fluid p-0 m-0">
       <GallerySection />
       <AboutMe />
-      <Offer />
+      <OfferInfo />
+      <ContactMe />
     </div>
   </div>
 </template>
@@ -11,14 +12,16 @@
 <script>
 import GallerySection from '../components/GallerySection/GallerySection.vue';
 import AboutMe from '../components/AboutMe.vue';
-import Offer from '../components/OfferSection/Offer.vue';
+import OfferInfo from '../components/OfferSection/OfferInfo.vue';
+import ContactMe from '../components/ContactMe.vue';
 
 export default {
   name: 'HomeView',
   components: {
     GallerySection,
     AboutMe,
-    Offer,
+    OfferInfo,
+    ContactMe,
   }
 }
 </script>

@@ -4,7 +4,7 @@
       <ul class="d-flex w-100 justify-content-center">
         <li class="me-3 p-1"><a class="text-decoration-none" href="">O MNIE</a></li>
         <li class="me-3 p-1"><a class="text-decoration-none" href="">GALERIA</a></li>
-        <li class="me-3 p-1"><a class="text-decoration-none" href="">OFERTA</a></li>
+        <li class="me-3 p-1"><a class="text-decoration-none" href="#offer-info">OFERTA</a></li>
         <li class="me-3 p-1"><a class="text-decoration-none" href="">KONTAKT</a></li>
       </ul>
     </div>
