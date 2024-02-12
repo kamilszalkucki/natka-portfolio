@@ -18,16 +18,21 @@
     <main>
       <router-view></router-view>
     </main>
+    <footer>
+      <ContactFooter />
+    </footer>
   </div>
 </template>
 
 <script>
 import NavBar from './components/Header/NavBar';
+import ContactFooter from './components/ContactFooter.vue';
 
 export default {
   name: 'App',
   components: {
-    NavBar
+    NavBar,
+    ContactFooter,
   }
 }
 </script>

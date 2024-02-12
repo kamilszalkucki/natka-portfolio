@@ -9,13 +9,14 @@
         </div>
 
         <div class="row w-100 p-0 m-0">
-            <div class="col-12 container gallery-container d-flex p-0">
+            <!-- <div class="col-12 container gallery-container d-flex p-0">
                 <div class="row w-100">
                     <div v-for="(image, index) in visibleImages" :key="index" class="col-sm-12 col-md-6 col-lg-4 p-2">
                         <ImageSquare :image="image">Zobacz projekt</ImageSquare>
                     </div>
                 </div>
-            </div>
+            </div> -->
+            <PortfolioGallery :visibleImages="visibleImages" />
         </div>
 
         <div class="row w-100">
@@ -32,13 +33,13 @@
 <script>
 import { ref, onMounted } from 'vue';
 import InfoButton from '../InfoButton.vue';
-import ImageSquare from './ImageSquare.vue';
+import PortfolioGallery from '../PortfolioGallery.vue';
 
 export default {
     name: "GallerySection",
     components: {
         InfoButton,
-        ImageSquare,
+        PortfolioGallery
     },
     setup() {
         const images = ref([]);
@@ -98,10 +99,4 @@ export default {
     },
 };
 </script>
-  
-<style scoped>
-.gallery-container {
-    max-width: 1077px;
-}
-</style>
   

@@ -15,7 +15,7 @@
 
 <script>
 export default {
-    name: "ContactMe",
+    name: "ContactFooter",
 }
 </script>
 <style scoped>

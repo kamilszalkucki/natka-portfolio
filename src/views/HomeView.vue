@@ -4,7 +4,6 @@
       <GallerySection />
       <AboutMe />
       <OfferInfo />
-      <ContactMe />
     </div>
   </div>
 </template>
@@ -13,7 +12,6 @@
 import GallerySection from '../components/GallerySection/GallerySection.vue';
 import AboutMe from '../components/AboutMe.vue';
 import OfferInfo from '../components/OfferSection/OfferInfo.vue';
-import ContactMe from '../components/ContactMe.vue';
 
 export default {
   name: 'HomeView',
@@ -21,7 +19,6 @@ export default {
     GallerySection,
     AboutMe,
     OfferInfo,
-    ContactMe,
   }
 }
 </script>
